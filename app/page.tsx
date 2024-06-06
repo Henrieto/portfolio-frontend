@@ -10,13 +10,13 @@ import Contact from '@/components/contact';
 
 export default function Home() {
   return (
-    <main className=" ">
+    <main className=" scroll-smooth">
       <div className="flex min-h-screen flex-col bg-gray-800">
       <div className="px-2"><Header/></div>
         <div className=" flex-auto flex items-center px-11 py-4">
           <Hero />
         </div>
-        <div className=" h-fit p-4  bg-gray-700 text-white text-md md:text-xl  lg:text-2xl capitalize flex-wrap flex justify-evenly items-center reddit-mono-300">
+        <div className=" h-fit p-4  bg-gray-700 text-white text-md md:text-xl  lg:text-2xl capitalize flex-wrap flex justify-evenly items-center reddit-mono-300" id="services">
           <div className="w-full">
             <h1 className="text-orange-500 px-8 py-2  flex gap-2 items-center">services <CgWebsite /></h1>
           </div>

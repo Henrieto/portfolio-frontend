@@ -17,10 +17,10 @@ const Header = () => {
         </div>
         <div 
         className={`nav flex gap-4 text-white items-center flex-col p-4 md:flex-row overflow-hidden md:overflow-visible transition-all ${toggle ? " h-80" : "h-0"}`}>
-            <Link href={"#"} className='p-4 w-full md:w-fit'>about</Link>
-            <Link href={"#"} className='p-4 w-full md:w-fit'>services</Link>
-            <Link href={"#"} className='p-4 w-full md:w-fit'>featured</Link>
-            <Link href={"#"} className='w-full md:w-fit block py-2 px-4 rounded-full border border-white text-white'>contact</Link>
+            <Link href={"#about"} className='p-4 w-full md:w-fit'>about</Link>
+            <Link href={"#services"} className='p-4 w-full md:w-fit'>services</Link>
+            <Link href={"#featured"} className='p-4 w-full md:w-fit'>featured</Link>
+            <Link href={"#contact"} className='w-full md:w-fit block py-2 px-4 rounded-full border border-orange-500 text-white'>contact</Link>
         </div>
         
     </nav>

@@ -24,3 +24,7 @@
 .w-25-per{
   width: 25%;
 }
+
+* {
+  scroll-behavior: smooth;
+}
