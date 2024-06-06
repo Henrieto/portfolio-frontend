@@ -11,7 +11,7 @@ const Featured = () => {
               <div className=' w-full lg:w-1/2 p-2 flex flex-col justify-start gap-4'>
                 <h2 className=' text-orange-500 py-4 text-xl'>Ecommece app</h2>
                 <p className='text-2xl lg:text-3xl xl:text-5xl text-white capitalize open-sans-300'>mobile app design concept of an ecommerce platform</p>
-                <p className='text-white reddit-mono-300 text-xl'>our ecommerce app is an innovative ecommerce platform that aims to simplify online shopping for customers while providing a seamless experience for sellers.our mission is to craft innovative, user-friendly, and scalable digital solutions that drive business success and exceed our clients' expectations. </p>
+                <p className='text-orange-500 reddit-mono-300 text-xl'>our ecommerce app is an innovative ecommerce platform that aims to simplify online shopping for customers while providing a seamless experience for sellers.our mission is to craft innovative, user-friendly, and scalable digital solutions that drive business success and exceed our clients' expectations. </p>
               </div>
             </div>
         </div>
